@@ -1,0 +1,47 @@
+class MyQueue {
+
+    private final Stack<Integer> input;
+    private final Stack<Integer> output;
+ 
+    public MyQueue() {        
+        input = new Stack<>();
+        output = new Stack<>();
+    }
+    
+    public void push(int x) {
+        input.push(x);
+    }
+    
+    public int pop() {
+        // output stack 비었으면, input stack에서 모조리 데이터 가져오기
+        inputToOutput();
+        // output stack 안비었으면, 그대로 pop()
+        return output.pop();
+    }
+    
+    public int peek() {
+        inputToOutput();
+        return output.peek();
+    }
+
+    private void inputToOutput() {
+        if (output.isEmpty()) {
+            while(!input.isEmpty()) {
+                output.push(input.pop());
+            }
+        }        
+    }
+    
+    public boolean empty() {
+        return input.isEmpty() && output.isEmpty();
+    }
+}
+
+/**
+ * Your MyQueue object will be instantiated and called as such:
+ * MyQueue obj = new MyQueue();
+ * obj.push(x);
+ * int param_2 = obj.pop();
+ * int param_3 = obj.peek();
+ * boolean param_4 = obj.empty();
+ */
