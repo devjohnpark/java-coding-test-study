@@ -28,9 +28,9 @@
 
 #### 멤버소개
 
-|[![](https://github.com/devjohnpark.png?width=200px)](https://github.com/devjohnpark)|[![](https://github.com/al1kite.png?width=200px)](https://github.com/al1kite) |[![](https://github.com/rosieisor.png?width=200px)](https://github.com/rosieisor) |[![](https://github.com/threehHong.png?width=200px)](https://github.com/threehHong)|
-|:---:|:---:|:---:|:---:|
-| 준서 | 다연 | 지륜 | 효헌 |
+|[![](https://github.com/devjohnpark.png?width=200px)](https://github.com/devjohnpark)|[![](https://github.com/al1kite.png?width=200px)](https://github.com/al1kite)|[![](https://github.com/rosieisor.png?width=200px)](https://github.com/rosieisor)|[![](https://github.com/jewan100.png?width=200px)](https://github.com/jewan100)|[![](https://github.com/cyzlcyzl.png?width=200px)](https://github.com/cyzlcyzl)|
+|:---:|:---:|:---:|:---:|:---:|
+| 준서 | 다연 | 지륜 | 제완 | 혜정 |
 
 <br/>
 
