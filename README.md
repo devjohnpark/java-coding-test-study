@@ -4,7 +4,7 @@
 | --------- | ------------------------------------------------------------------------------------------------------------- |
 | 진행 기간     | 시즌1: 2023년 08월 03일 ~                                                                                            |
 | 스터디 장소    | 강남역                                                                                                           |
-| 정기 스터디 시간 | 일요일 19:00 ~ 21:00 [2h]                                                                                        |
+| 정기 스터디 시간 | 일요일 10:00 ~ 12:00 [2h]                                                                                        |
 | 문제 링크와 풀이 | [GitHub - java-algorithm-interview](https://github.com/onlybooks/java-algorithm-interview?tab=readme-ov-file) |
 | 참고 교재     | 자바 알고리즘 인터뷰 with Kotlin (저자: 박상길)                                                                             |
 
@@ -12,25 +12,25 @@
 
 ## 일정
 
-| 주차별 학습             | 날짜     |
-|------------------------|----------|
-| 7장 배열               | 08.03일  |
-| 8장 연결리스트         | 08.10일  |
-| 9장 스택, 큐           | 08.17일  |
-| 10장 테크, 우선순위 큐 | 08.24일  |
-| 11장 해시 테이블       | 08.31일  |
-| 12장 그래프            | 09.07일  |
-| 14장 트리              | 09.14일  |
-| 15장 힙                | 09.21일  |
-| 16장 트라이            | 09.28일  |
+| 주차별 학습               | 날짜     |
+|---------------------------|----------|
+| 7장 배열                  | 08.03일  |
+| 8장 연결리스트            | 08.10일  |
+| 9장 스택, 큐              | 08.17일  |
+| 10장 테크, 우선순위 큐    | 08.24일  |
+| 11장 해시 테이블          | 08.31일  |
+| 12장 그래프               | 09.07일  |
+| 13장 최단 경로 문제       | 09.14일  |
+| 21장 그리디 알고리즘      | 09.21일  |
+| 23장 다이나믹 프로그래밍  | 09.28일  |
 
 <br/>
 
 #### 멤버소개
 
-|[![](https://github.com/devjohnpark.png?width=200px)](https://github.com/devjohnpark)|[![](https://github.com/al1kite.png?width=200px)](https://github.com/al1kite)|[![](https://github.com/rosieisor.png?width=200px)](https://github.com/rosieisor)|[![](https://github.com/jewan100.png?width=200px)](https://github.com/jewan100)|[![](https://github.com/cyzlcyzl.png?width=200px)](https://github.com/cyzlcyzl)|
-|:---:|:---:|:---:|:---:|:---:|
-| 준서 | 다연 | 지륜 | 제완 | 혜정 |
+|[![](https://github.com/devjohnpark.png?width=200px)](https://github.com/devjohnpark)|[![](https://github.com/al1kite.png?width=200px)](https://github.com/al1kite)|[![](https://github.com/rosieisor.png?width=200px)](https://github.com/rosieisor)|[![](https://github.com/jewan100.png?width=200px)](https://github.com/jewan100)|
+|:---:|:---:|:---:|:---:|
+| 준서 | 다연 | 지륜 | 제완 |
 
 <br/>
 
