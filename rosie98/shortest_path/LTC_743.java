@@ -24,9 +24,7 @@ class Solution {
     }
 
     public int dijkstra(int[][] times, int n, int k, List<List<Node>> nodes) {
-        boolean[] visited = new boolean[n+1]; 
         int[] dist = new int[n+1];
-
         Arrays.fill(dist, Integer.MAX_VALUE);
         
         PriorityQueue<Node> pq = new PriorityQueue<>((o1, o2) -> {
@@ -37,17 +35,11 @@ class Solution {
         dist[k] = 0;
 
         while(!pq.isEmpty()) {
-            int nowNode= pq.poll().target;
-
-            if (visited[nowNode]) {
-                continue;
-            }
-
-            visited[nowNode] = true;
-
-            for(Node node : nodes.get(nowNode)) {    
-                if (dist[node.target] > dist[nowNode] + node.time) {
-                    dist[node.target] = dist[nowNode] + node.time;
+            Node nowNode = pq.poll();
+            
+            for(Node node : nodes.get(nowNode.target)) {
+                if (dist[node.target] > dist[nowNode.target] + node.time) {
+                    dist[node.target] = dist[nowNode.target] + node.time;
 
                     pq.offer(new Node(node.target, dist[node.target]));
                 }
@@ -55,6 +47,7 @@ class Solution {
         }
 
         int answer = 0;
+        
         for(int i=1; i<=n; i++) {
             if (dist[i] == Integer.MAX_VALUE) {
                 return -1;
